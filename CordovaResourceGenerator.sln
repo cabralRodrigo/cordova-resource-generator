@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CordovaResourceGenerator.UI", "CordovaResourceGenerator.UI\CordovaResourceGenerator.UI.csproj", "{4AE4C02C-9621-4CA4-A19F-F9C908D85143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CordovaResourceGenerator.Domain", "CordovaResourceGenerator.Domain\CordovaResourceGenerator.Domain.csproj", "{732A86E8-82C8-4DE6-94CE-CC531A866731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CordovaResourceGenerator.Service", "CordovaResourceGenerator.Service\CordovaResourceGenerator.Service.csproj", "{A44D305B-2038-471C-A196-C9045B2DE943}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B9DD4A5-19CB-410E-BC83-D40F7F0AF24D}"
+	ProjectSection(SolutionItems) = preProject
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AE4C02C-9621-4CA4-A19F-F9C908D85143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE4C02C-9621-4CA4-A19F-F9C908D85143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE4C02C-9621-4CA4-A19F-F9C908D85143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE4C02C-9621-4CA4-A19F-F9C908D85143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732A86E8-82C8-4DE6-94CE-CC531A866731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732A86E8-82C8-4DE6-94CE-CC531A866731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732A86E8-82C8-4DE6-94CE-CC531A866731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732A86E8-82C8-4DE6-94CE-CC531A866731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44D305B-2038-471C-A196-C9045B2DE943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44D305B-2038-471C-A196-C9045B2DE943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44D305B-2038-471C-A196-C9045B2DE943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44D305B-2038-471C-A196-C9045B2DE943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

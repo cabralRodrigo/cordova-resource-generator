@@ -1,0 +1,17 @@
+﻿<Page x:Class="CordovaResourceGenerator.UI.IntroductionWizardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:r="clr-namespace:CordovaResourceGenerator.UI.Properties"
+      mc:Ignorable="d" 
+      d:DesignHeight="257"
+      d:DesignWidth="544"
+      Title="{x:Static r:Resources.IntroductionWizardPage_Title}">
+
+    <Border Style="{StaticResource WizardPageMainBorder}">
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+            <TextBlock TextWrapping="Wrap" Text="{x:Static r:Resources.IntroductionWizardPage_Description}"/>
+        </StackPanel>
+    </Border>
+</Page>

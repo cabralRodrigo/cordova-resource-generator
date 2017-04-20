@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WizardWindow_Button_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="WizardWindow_Button_Next" xml:space="preserve">
+    <value>&lt; Próximo</value>
+  </data>
+  <data name="WizardWindow_Button_Previous" xml:space="preserve">
+    <value>Anterior &gt;</value>
+  </data>
+  <data name="WizardWindow_Title" xml:space="preserve">
+    <value>Gerador de Ícones e Splashs para Cordova</value>
+  </data>
+  <data name="FinishedWizardPage_Description" xml:space="preserve">
+    <value>Os ícones e splashs foram gerados com sucesso.</value>
+  </data>
+  <data name="FinishedWizardPage_Hyperlink_Text" xml:space="preserve">
+    <value>Clique aqui para abrir a pasta de destino.</value>
+  </data>
+  <data name="FinishedWizardPage_Title" xml:space="preserve">
+    <value>Sucesso!</value>
+  </data>
+  <data name="IntroductionWizardPage_Description" xml:space="preserve">
+    <value>Esse guia irá the ajudar a gerar ícones e splashs para um projeto cordova.</value>
+  </data>
+  <data name="IntroductionWizardPage_Title" xml:space="preserve">
+    <value>Gerador de Ícones e Splashs para Cordova</value>
+  </data>
+  <data name="PageFactory_PageTypeInvalid" xml:space="preserve">
+    <value>Tipo de página inválido.</value>
+  </data>
+  <data name="SelectColorAndOutputWizardPage_ColorDialog_Title" xml:space="preserve">
+    <value>Selecione Cor</value>
+  </data>
+  <data name="SelectColorAndOutputWizardPage_Color_Description" xml:space="preserve">
+    <value>Selecione a cor de fundo dos ícones e splashs a serem gerados (deixe em branco para transparente):</value>
+  </data>
+  <data name="SelectColorAndOutputWizardPage_OutputFolder_Button" xml:space="preserve">
+    <value>Selecione a pasta de destino</value>
+  </data>
+  <data name="SelectColorAndOutputWizardPage_OutputFolder_Description" xml:space="preserve">
+    <value>Select uma pasta de destino para os ícones e splashs:</value>
+  </data>
+  <data name="SelectColorAndOutputWizardPage_Title" xml:space="preserve">
+    <value>Seleção Cor de Fundo &amp; Pasta de Destino</value>
+  </data>
+  <data name="SelectConfigWizardPage_Button_Label" xml:space="preserve">
+    <value>Selecionar Arquivo</value>
+  </data>
+  <data name="SelectConfigWizardPage_Description" xml:space="preserve">
+    <value>Selecione o arquivo config.xml de um projeto cordova:</value>
+  </data>
+  <data name="SelectConfigWizardPage_FileDialog_Filter" xml:space="preserve">
+    <value>Arquivo Xml Configuração Cordova</value>
+  </data>
+  <data name="SelectConfigWizardPage_Title" xml:space="preserve">
+    <value>Projeto Cordova</value>
+  </data>
+  <data name="SelectImagesWizardPage_FileDialogIcon_Button" xml:space="preserve">
+    <value>Selecione o ícone de Origem</value>
+  </data>
+  <data name="SelectImagesWizardPage_FileDialogIcon_Title" xml:space="preserve">
+    <value>Selecione o ícone de Origem</value>
+  </data>
+  <data name="SelectImagesWizardPage_FileDialogSplash_Button" xml:space="preserve">
+    <value>Selecione a splash de Origem</value>
+  </data>
+  <data name="SelectImagesWizardPage_FileDialogSplash_Title" xml:space="preserve">
+    <value>Selecione a splash de Origem</value>
+  </data>
+  <data name="SelectImagesWizardPage_FileDialog_Filter" xml:space="preserve">
+    <value>Arquivo de Imagem</value>
+  </data>
+  <data name="SelectImagesWizardPage_OnlyIconSelected_MessagBox_Message" xml:space="preserve">
+    <value>Você selecionou apenas o ícone de origem. O ícone de origem será utilizado para gerar as splashs também.</value>
+  </data>
+  <data name="SelectImagesWizardPage_OnlyIconSelected_MessagBox_Title" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="SelectImagesWizardPage_Title" xml:space="preserve">
+    <value>Imagem de Origem do Ícone &amp; Splash</value>
+  </data>
+  <data name="WizardWindow_Generate_Error_Description" xml:space="preserve">
+    <value>Ocorreu um erro no processo de geração: {0}</value>
+  </data>
+  <data name="WizardWindow_Generate_Error_Title" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="WizardWindow_UnknownError" xml:space="preserve">
+    <value>Erro desconhecido.</value>
+  </data>
+</root>

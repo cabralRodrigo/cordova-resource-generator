@@ -1,0 +1,26 @@
+﻿<Page x:Class="CordovaResourceGenerator.UI.SelectConfigWizardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:r="clr-namespace:CordovaResourceGenerator.UI.Properties"
+      mc:Ignorable="d" 
+      d:DesignHeight="257"
+      d:DesignWidth="544"
+      Title="{x:Static r:Resources.SelectConfigWizardPage_Title}">
+
+    <Border Style="{StaticResource WizardPageMainBorder}">
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="{x:Static r:Resources.SelectConfigWizardPage_Description}"/>
+            <Grid Margin="0 5 0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Grid.Column="0" Text="{Binding Parent.ConfigXmlPath, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button Grid.Column="1" Margin="10 0 0 0" Content="{x:Static r:Resources.SelectConfigWizardPage_Button_Label}" Command="{Binding OpenFileDialogCordovaProjectCommand}"/>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Page>

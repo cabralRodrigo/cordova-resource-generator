@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:CordovaResourceGenerator.UI">
+
+    <Color x:Key="Backgroud-White">#fff</Color>
+    <SolidColorBrush x:Key="BrushBackgroud-White" Color="{StaticResource Backgroud-White}"/>
+
+    <Color x:Key="Backgroud-Gray">#e1e3e8</Color>
+    <SolidColorBrush x:Key="BrushBackgroud-Gray" Color="{StaticResource Backgroud-Gray}"/>
+
+    <Color x:Key="Separator-Gray">#bec0c4</Color>
+    <SolidColorBrush x:Key="BrushSeparator-Gray" Color="{StaticResource Separator-Gray}"/>
+</ResourceDictionary>
